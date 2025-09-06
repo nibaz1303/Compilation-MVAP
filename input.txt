@@ -1,0 +1,53 @@
+bool x;
+bool y;
+com c;
+com d;
+com cpt;
+
+x = true;
+y = false;
+
+cpt = 0.0;
+c = 5.0;
+d = i2.0;
+
+afficher(c);
+afficher(d);
+
+lorsque x faire {
+    afficher(c + d);
+} autrement {
+    afficher(c - d);
+}
+
+d = c ** 2;
+afficher(d);
+
+repeter 
+{
+    afficher(d / c);
+    x = non x;
+    lorsque x faire 
+    {
+        cpt = cpt + 1.0;
+    }
+} 
+jusque cpt<10.0 sinon 
+{
+    afficher((2.0 e^i 180.0) ** 2);
+}
+
+y = x ou y;
+
+lorsque c < d faire {
+    afficher(c);
+} autrement {
+    afficher(d);
+}
+
+d = lire();
+
+afficher(reel(d));
+afficher(im(d));
+
+
